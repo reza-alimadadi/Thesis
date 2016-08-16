@@ -1,0 +1,7 @@
+1.	in "sys_graph::sys_statistics::sys_calc" should change "uint64_t num = rand () % 32768" with something 
+	according to input bit widths and ensure that no overflow will occur.
+2.	checkup "multiplier" operation for 48 bit width. it perform weirdly.
+3.	change operation bit width to from static to dynamic. it means that bit width should only 
+	show the input bit width and output bit width should change appropriately.
+4.	check the performance of "bit_set" for "adder".
+5.	operators should have a method that changes their approximate widths.
